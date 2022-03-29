@@ -1,3 +1,6 @@
+from tkinter import E
+
+
 users = {
   "Jonathan": {
     "twitter": "jonnyt",
@@ -61,10 +64,18 @@ print (users["Erik"]["home_town"])
 # 3. Get the list of Erik's lottery numbers
 print (users["Erik"]["lottery_numbers"])
 # 4. Get the species of Avril's pet Monty
-
+print (users["Avril"]["pets"][0] ["species"])
 # 5. Get the smallest of Erik's lottery numbers
+eriks_numbers= users["Erik"]["lottery_numbers"]
+eriks_numbers.sort()
+print (eriks_numbers[0])
 # 6. Return an list of Avril's lottery numbers that are even
+avril_numbers= users["Avril"]["lottery_numbers"]
+for num in avril_numbers:
+  if num % 2 == 0:
+    print(num)
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
+
 # 8. Change Erik's hometown to Edinburgh
 # 9. Add a pet dog to Erik called "fluffy"
 # 10. Add another person to the users dictionary
