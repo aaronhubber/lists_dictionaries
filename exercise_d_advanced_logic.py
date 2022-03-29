@@ -3,12 +3,18 @@
 numbers = [1, 6, 2, 2, 7, 1, 6, 13, 99, 7]
 
 # 1. Print out a list of the even integers:
-
+#for num in numbers:
+    #if num % 2 == 0:
+        #print (num)
 
 # 2. Print the difference between the largest and smallest value:
+min_number = (min(numbers))
+max_number = (max(numbers))
+print (max_number - min_number)
 
 
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
+# didn't even know what to google!
 
 
 # 4. Print the sum of the numbers, 
