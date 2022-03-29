@@ -86,5 +86,5 @@ users["Erik"]["pets"].append(
   "species":"dog"}
   )
 # 10. Add another person to the users dictionary
-users ["Aaron"] = ("home_town : Exeter")
+users ["Aaron"] = ("home_town : Exeter"), ("pets : Sea Monkeies")
 print (users)
